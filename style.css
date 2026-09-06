@@ -144,3 +144,21 @@ h1 {
   border-radius: 500px;
   border: none;
 }
+
+
+
+/*
+
+SMALLER DEVICES
+
+*/
+
+@media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+}
