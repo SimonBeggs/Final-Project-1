@@ -36,6 +36,9 @@ a {
 button {
   cursor: pointer;
 }
+button:active {
+  transform: translateY(2px);
+}
 
 header {
   position: relative;
@@ -52,15 +55,8 @@ p {
   line-height: 1.5;
 }
 
-div {
-  overflow-wrap: break-word;
-  -webkit-nbsp-mode: space;
-  line-break: after-white-space;
-  -webkit-user-modify: read-write-plaintext-only;
-}
-
-button {
-  cursor: pointer;
+img {
+  width: 100%;
 }
 
 .blue {
@@ -140,6 +136,20 @@ button {
 
 .nav__link:hover:after {
   opacity: 1;
+}
+
+.nav__link.nav__link--primary:after {
+  position: static;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+
+.nav__link--primary:hover {
+   background-color: rgb(12, 12, 173);
+}
+.nav__link--primary:active {
+  transform: translateY(2px);
 }
 
 .login {
@@ -281,6 +291,28 @@ header .row {
 
 .header__email--btn:hover {
   background-color: rgb(12, 12, 173);
+}
+
+
+.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+
+.header__customers {
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+.header__img {
+  width: 100%;
+}
+
+.header__img--wrapper {
+  width: calc(100% - 40%); 
 }
 
 
