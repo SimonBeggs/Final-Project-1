@@ -427,6 +427,14 @@ QUALITY
 
 */
 
+
+#quality .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
 .quality__description, 
 .quality__img--wrapper {
   width: 50%;
@@ -455,10 +463,66 @@ QUALITY
   display: flex;
 }
 
+.quality__img--wrapper::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: -40px;
+  bottom: -40px;
+  background-image: radial-gradient(#2222f6 2px, transparent 2px);
+  background-size: 12px 12px;
+  z-index: -1;
+}
+
 
 .quality__img {
   z-index: 1;
 }
+
+
+/*
+
+STEPS
+
+*/
+
+#steps .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__description, .steps__img--wrapper {
+  width: 50%;
+}
+
+.steps__img--wrapper {
+  display: flex;
+  position: relative;
+}
+
+.steps__img--wrapper::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 80px;
+  left: 50%;
+  bottom: -40px;
+  background-image: radial-gradient(#6415ff 2px, transparent 2px);
+  background-size: 12px 12px;
+  z-index: -1;
+
+}
+
+.steps__img {
+  z-index: 2;
+}
+
+
+
+
+
 
 
 
