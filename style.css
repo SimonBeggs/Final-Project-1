@@ -498,21 +498,24 @@ STEPS
 }
 
 .steps__img--wrapper {
-  display: flex;
+  display: block;
+  margin: 0 auto;
   position: relative;
+
 }
 
 .steps__img--wrapper::after {
   content: "";
   position: absolute;
-  width: 140px;
-  height: 80px;
-  left: 50%;
+  
+  width: 160px;
+  height: 140px;
+  /* left: 50%; */
   bottom: -40px;
-  background-image: radial-gradient(#6415ff 2px, transparent 2px);
-  background-size: 12px 12px;
+  background-image: radial-gradient(#2222f6 2px, transparent 2px);
+  background-size: 10px 10px;
   z-index: -1;
-
+  opacity: 0.5;
 }
 
 .steps__img {
