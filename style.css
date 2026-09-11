@@ -508,9 +508,9 @@ STEPS
   content: "";
   position: absolute;
   
-  width: 160px;
-  height: 140px;
-  /* left: 50%; */
+  width: 10rem;
+  height: 10rem;
+  left: 38%;
   bottom: -40px;
   background-image: radial-gradient(#2222f6 2px, transparent 2px);
   background-size: 10px 10px;
