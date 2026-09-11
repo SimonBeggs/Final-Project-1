@@ -374,12 +374,12 @@ FEATURES
 }
 
 .feature {
-  width: calc(33.3333333);
+  width: 33.333%;
 }
 
 .feature__row {
   display: flex;
-  text-align: flec-start;
+  align-items: flex-start;
   padding: 32px 24px;
 }
 
@@ -403,7 +403,7 @@ FEATURES
 .feature__para {
   margin-top: 16px;
   font-size: 16px;
-  max-width: calc(211.333333px);
+  max-width: 211.333%;
   color: rgb(124, 139, 161);
   line-height: 2;
   font-weight: 500;
