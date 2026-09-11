@@ -160,6 +160,18 @@ img {
   left: 24px;
 }
 
+.btn {
+  background-color: #2222f6;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+
 .btn__menu {
   display: none;
   font-size: 24px;
@@ -403,11 +415,52 @@ FEATURES
 .feature__para {
   margin-top: 16px;
   font-size: 16px;
-  max-width: 211.333%;
+  max-width: 211.333px;
   color: rgb(124, 139, 161);
   line-height: 2;
   font-weight: 500;
 }
+
+/*
+
+QUALITY
+
+*/
+
+.quality__description, 
+.quality__img--wrapper {
+  width: 50%;
+}
+
+.quality__description {
+  max-width: 576px;
+  margin-right: 64px;
+}
+
+#quality .section__title {
+  line-height: 1.25;
+}
+
+#quality .btn {
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+.quality__img--wrapper {
+  border-radius: 4px;
+  border: 1px solid rgb(229, 231, 235);
+  position: relative;
+  margin: 0 56px;
+  z-index: 2;
+  display: flex;
+}
+
+
+.quality__img {
+  z-index: 1;
+}
+
+
 
 /*
 
