@@ -374,7 +374,7 @@ FEATURES
 }
 
 .feature {
-  width: 33.333%;
+  width: calc(100% / 3);
 }
 
 .feature__row {
