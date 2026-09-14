@@ -788,7 +788,7 @@ PRICING
   border-bottom: 2px solid rgb(229, 231, 235);
 }
 
-.plan_middle {
+.plan__middle {
   margin-left: -2rem;
   margin-right: -2rem;
   display: flex;
@@ -827,7 +827,7 @@ PRICING
   padding-bottom: 2rem;
 }
 
-.plan:nth-child(1) .plan__stripe .plan__button {
+.plan:nth-child(1) .plan__button {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
