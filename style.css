@@ -785,8 +785,6 @@ PRICING
 .plan:nth-child(2) .plan__middle {
   border-top: 2px solid rgb(66, 88, 236);
   border-bottom: 2px solid rgb(102, 126, 234);
-
-  
 }
 
 .plan__name,
@@ -826,8 +824,6 @@ PRICING
   );
 }
 
-
-
 .plan__button {
   padding: 0.75rem 2rem;
   font-weight: 700;
@@ -853,7 +849,11 @@ PRICING
   );
 }
 
- .plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature {
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__feature {
   color: #f7fafc;
 }
 
@@ -862,28 +862,26 @@ PRICING
   color: rgb(39, 58, 230);
 }
 
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
-  color:#f7fafc;
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
+  color: #f7fafc;
   background: linear-gradient(
-115deg,
-rgb(245, 101, 101) 0%,
-rgb(254, 178, 178) 100%
-);
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
 .plans__blob {
   z-index: -10;
-position: absolute;
-left: 0;
-bottom: 0;
-transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
-height: 256px;
-width: 256px;
-opacity: 0.25;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
 }
-
-
-
 
 /*
 
@@ -905,7 +903,8 @@ TESTIMONIALS
   justify-content: space-between;
 }
 
-.testimonials__img, .testimonials__description {
+.testimonials__img,
+.testimonials__description {
   width: 50%;
 }
 
@@ -916,7 +915,6 @@ TESTIMONIALS
 }
 
 #testimonials .section__title {
-  
   margin-bottom: 24px;
   line-height: 1.25;
 }
@@ -966,6 +964,11 @@ TESTIMONIALS
   margin-left: 24px;
 }
 
+.testimonial__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
 .testimonial__profile {
   display: flex;
   align-items: center;
@@ -998,9 +1001,116 @@ TESTIMONIALS
   border-radius: 50%;
   margin: 0 12px;
   transition: all 300ms ease;
-
 }
 
+.testimonial__button:hover {
+  background: #e2e7ed;
+}
+
+.divider {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-right-width: 1px;
+  width: 0.5px;
+  background-color: #edf2f7;
+  height: 20px;
+}
+
+.fa-arrow-left {
+  width: 16px;
+  height: 16px;
+  color: #2222f6;
+}
+
+.fa-arrow-right {
+  width: 16px;
+  height: 16px;
+  color: #2222f6;
+}
+
+/*
+
+START
+
+*/
+
+.start__container {
+  padding: 96px 0;
+  width: 100%;
+  background-color: #1212e0de;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__title {
+color: #f7fafc;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.5;
+z-index: 2;
+}
+
+.start__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start__title, .start__button {
+  width: 50%;
+}
+
+.start__button {
+  padding: 20px 40px;
+border-radius: 500px;
+font-weight: 700;
+font-size: 16px;
+color: #f7fafc;
+line-height: 1.5;
+letter-spacing: 0.025;
+margin: 1px;
+z-index: 2;
+}
+
+.start__button:nth-child(1) {
+background: #f56565;
+box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+margin-right: 32px;
+transition: all 300ms ease;
+}
+
+
+
+
+
+
+
+
+.cta {
+  background-color: #2222f6;
+  padding: 64px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta__buttons {
+  display: flex;
+  gap: 24px;
+}
 
 /*
 
