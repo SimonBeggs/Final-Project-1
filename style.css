@@ -65,11 +65,6 @@ img {
   width: 100%;
 }
 
-svg {
-  position: absolute;
-  z-index: 1;
-}
-
 footer {
   padding: 96px 32px;
  background: linear-gradient(
@@ -1054,6 +1049,11 @@ START
 
 */
 
+.start__container > svg {
+  position: absolute;
+  z-index: 1;
+}
+
 .start__container {
   position: relative;
   overflow: hidden;
@@ -1270,12 +1270,14 @@ FOOTER
   margin-left: -16px;
 }
 
-.footer__social--link {
+
+.footer__socials--link {
   margin-left: 16px;
-  padding: 8px;
+ padding: 16px;
   background: #f7fafc;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
   z-index: 2;
   cursor: pointer;
