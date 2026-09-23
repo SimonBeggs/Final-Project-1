@@ -1266,6 +1266,7 @@ FOOTER
   font-weight: 900;
   margin-left: 8px;
   letter-spacing: 0.05rem;
+  white-space: nowrap;
 }
 
 .footer__copyright {
