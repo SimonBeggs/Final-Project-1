@@ -1479,6 +1479,10 @@ SMALLER DEVICES
     margin-top: 24px
   }
 
+  footer {
+    padding: 80px 32px;
+  }
+
 }
 
 
@@ -1570,7 +1574,22 @@ SMALLER DEVICES
     padding-left: 0;
   }
 
+  .footer__columns {
+    justify-content: flex-start;
+  }
 
+  .footer__column {
+    width: calc(100% / 3);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__copyright, .footer__socials {
+    margin-top: 32px;
+  }
 }
 
 
@@ -1705,5 +1724,22 @@ SMALLER DEVICES
   }
  .start__button:nth-child(2) {
   margin-top: 16px;
+ }
+
+ .footer__columns {
+  justify-content: center;
+ }
+
+ .footer__column {
+  width: auto;
+  padding: 0 16px;
+  text-align: center;
+  align-items: center;
+ }
+
+ .footer__copyright {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
  }
 }
