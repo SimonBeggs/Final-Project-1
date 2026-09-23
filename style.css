@@ -1330,6 +1330,10 @@ SMALLER DEVICES
   }
 
   
+  .plan {
+    margin-right: 2rem;
+  }
+
   .plan__bottom {
     padding-left: 2rem;
     padding-right: 2rem;
