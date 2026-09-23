@@ -1069,11 +1069,11 @@ START
   fill: #0505bd6a;
 }
 
-.start__blob--primary {
+.start__blob__left {
   bottom: 0;
 }
 
-.start__blob--secondary {
+.start__blob__right {
   top: 0;
 }
 
