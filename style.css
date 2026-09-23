@@ -1497,6 +1497,13 @@ SMALLER DEVICES
   .feature {
     width: auto;
     max-width: 384px;
+    margin: 0 auto;
+  }
+
+    .feature__row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   #quality .row,
@@ -1639,11 +1646,6 @@ SMALLER DEVICES
 
   .features {
     justify-content: center;
-  }
-  .feature__row {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .feature__text {
